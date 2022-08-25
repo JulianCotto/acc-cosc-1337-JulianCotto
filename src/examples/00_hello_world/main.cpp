@@ -11,8 +11,8 @@ int main()
 {
 // "{" <--- indicates the start of a function
 
-    cout << "Hello World!";
-    // ^--- console out (print) "Hello World"
+    cout << "Hello World!\n";
+    // ^--- console out (print) "Hello World!"
 
     return 0;
     // ^--- value returned from main()
