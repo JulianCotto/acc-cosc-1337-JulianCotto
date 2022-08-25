@@ -1,15 +1,19 @@
-#include<iostream>
+#include<iostream> /* <--- start of a multi-line comment
 // ^--- pre-processor > include input (cin) & output (cout) stream
+^---start of a single-line comment
+end of a multi- line comment ---> */
 
 using std::cout;
 // ^--- from the standard library > use cout (input)
 // ^--- better practice than "using namespace std;"
+// ^--- could lead to conflicting name issues with larger programs
 
 int main()
-// ^--- every program MUST-HAVE a value returning main()
+// ^--- every C++ program MUST-HAVE a value returning main()
 
-{
-// "{" <--- indicates the start of a function
+{                                    /*
+^--- indicates the start of a function
+*/
 
     cout << "Hello World!\n";
     // ^--- console out (print) "Hello World!"
@@ -17,5 +21,7 @@ int main()
     return 0;
     // ^--- value returned from main()
 
-}
-// "}" <--- indicates the end of a function
+
+}                                  /*
+^--- indicates the end of a function
+*/
