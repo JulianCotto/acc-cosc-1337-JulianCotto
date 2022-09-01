@@ -9,3 +9,25 @@
 //returns 'Option 4' when value 4
 //return 'Invalid Option' otherwise
 
+string switch_statement(int num)
+{
+    switch(num)
+    {
+        case 1:
+            return "Option 1";
+
+        case 2:
+            return "Option 2";
+
+        case 3:
+            return "Option 3";
+
+        case 4:
+            return "Option 4";
+
+        default:
+            return "Invalid Option";
+    }
+
+    
+}
